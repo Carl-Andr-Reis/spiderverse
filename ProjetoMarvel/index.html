@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AranhaVerso</title>
+
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="logo" src="./src/image/logo.png" alt="Logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+
+            <h1 class="titulo"> SELECIONE UMA VERSÃO </h1>
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="homem-aranha-original" data-name="Peter Parker"
+                    data-description="No universo principal da Marvel, a Terra-616, Peter Parker se tornou o Homem-Aranha após ser picado por uma aranha radioativa durante uma visita escolar a uma exposição científica. Essa mordida lhe conferiu poderes especiais, incluindo força sobre-humana, agilidade aprimorada e a habilidade de escalar paredes. Usando seus dons recém-adquiridos, Peter decidiu usar suas habilidades para combater o crime e proteger os inocentes como o Homem-Aranha.">
+                    <img src="./src/image/card-classico.jpg" alt="Homem-Aranha Original">
+                </li>
+
+                <li class="personagem" id="homem-aranha-2099" data-name="Homem-Aranha 2099"
+                    data-description="No universo conhecido como Terra-928, situado no ano de 2099, Miguel O'Hara é um cientista talentoso que trabalha para a mega-corporação Alchemax. Ele é geneticamente modificado em um experimento envolvendo DNA de aranha, numa tentativa de recriar os poderes do Homem-Aranha original. Após o procedimento, Miguel obtém habilidades semelhantes às de Peter Parker, como força aprimorada, agilidade e a capacidade de aderir às paredes.">
+                    <img src="./src/image/card-2099.jpg" alt="Homem-Aranha 2099">
+                </li>
+
+                <li class="personagem" id="miles-morales" data-name="Miles Morales"
+                    data-description="No Universo Ultimate da Terra-1610, Miles Morales é um adolescente afro-latino de ascendência afro-americana e latina. Após a morte de Peter Parker, o Homem-Aranha original, Miles é picado por uma aranha geneticamente modificada e ganha habilidades semelhantes às do Homem-Aranha, como força, agilidade aprimorada, capacidade de aderir às paredes e o sentido de aranha.">
+                    <img src="./src/image/card-miles.jpg" alt="Miles Morales">
+                </li>
+
+                <li class="personagem" id="homem-aranha-superior" data-name="Aranha Superior"
+                    data-description="Na Terra-616, o Homem-Aranha Superior é uma versão de Otto Octavius. Como o novo Homem-Aranha Superior, Otto Octavius decide seguir uma abordagem mais agressiva e eficiente no combate ao crime. Ele utiliza sua genialidade científica e experiência como Doutor Octopus para criar novas tecnologias e métodos de luta. O Homem-Aranha Superior é mais estratégico, implacável e disposto a tomar medidas extremas para proteger a cidade de Nova York.">
+                    <img src="./src/image/card-superior.jpg" alt="Homem-Aranha Superior">
+                </li>
+
+                <li class="personagem" id="homem-aranha-punk" data-name="Homem-Aranha Punk"
+                    data-description=" O Homem-Aranha Punk da Terra-138 não é tão amplamente conhecido quanto outras versões do Homem-Aranha, mas ele representa uma variação única do personagem e incorpora o espírito de rebeldia e justiça social em um futuro sombrio. Ele vive em uma realidade futurista distópica. É retratado como um jovem rebelde que luta contra a opressão e a tirania corporativa.">
+                    <img src="./src/image/card-punk.jpg" alt="Homem-Aranha Punk">
+                </li>
+
+                <li class="personagem" id="homem-aranha-zumbi" data-name="Homem-Aranha Zumbi"
+                    data-description="O Homem-Aranha Zumbi é uma versão alternativa, nessa realidade, conhecida como Terra-2149, os super-heróis e vilões do Universo Marvel foram infectados por um vírus zumbi, transformando-se em criaturas sedentas por carne humana. Ao contrário dos zumbis tradicionais, o Homem-Aranha Zumbi consegue controlar seu desejo por carne humana e raciocinar como um ser consciente.">
+                    <img src="./src/image/card-zumbi.jpg" alt="Homem-Aranha Zumbi">
+                </li>
+
+                <li class="personagem" id="spider-gwen" data-name="Spider-Gwen"
+                    data-description="Na Terra-65, diferente da versão tradicional de Peter Parker, Gwen Stacy assume a identidade de Spider-Gwen e luta contra o crime em Nova York. Ela usa um traje distintivo, com um capuz branco. A história da Spider-Gwen explora as dificuldades e desafios de ser uma super-heroína adolescente, equilibrando suas responsabilidades como estudante e músico com suas atividades de combate ao crime.">
+                    <img src="./src/image/card-gwen.jpg" alt="Spider-Gwen">
+                </li>
+
+                <li class="personagem" id="homem-aranha-escarlate" data-name="Aranha Escarlate"
+                    data-description="Ben Reilly foi criado em laboratório como um clone do Peter Parker original, o Homem-Aranha. Na Terra-94, ele assume a identidade do Homem-Aranha e se torna um herói por direito próprio. Ao contrário de outras versões do Clone do Homem-Aranha, Ben Reilly tem uma trajetória distinta e não se envolve em um conflito com Peter Parker. Ele é retratado como um herói independente.">
+                    <img src="./src/image/card-escarlate.jpg" alt="Homem-Aranha Escarlate">
+                </li>
+
+                <li class="personagem" id="spider-byte" data-name="Spider-Byte"
+                    data-description="Na Terra-22191 as pessoas passam a vida online, uma jovem chamada Margo Kess decidiu hackear o sistema e criar seu próprio avatar para combater o crime no ciberespaço. Chamando a si mesma de Spider-Byte, Margo criou uma armadura cibernética que aumentava sua força e velocidade, punhos magnéticos em suas luvas e botas que lhe permitiam escalar paredes e lançadores de teias fotônicos.">
+                    <img src="./src/image/card-byte.jpg" alt="Aranha-Bite">
+                </li>
+
+                <li class="personagem" id="homem-aranha-noir" data-name="Homem-Aranha Noir"
+                    data-description="Na Terra-90214, o Homem-Aranha Noir é uma versão alternativa do Homem-Aranha com uma abordagem mais sombria em uma Nova York dos anos 1930. O Homem-Aranha Noir possui um traje distinto, com elementos inspirados na moda e estética da época. Ele utiliza técnicas de investigação e uma abordagem mais direta e implacável ao combater o crime.">
+                    <img src="./src/image/card-noir.jpg" alt="Homem-Aranha Noir">
+                </li>
+
+                <li class="personagem" id="homem-aranha-indiano" data-name="Aranha Indiano"
+                    data-description="Pavitr Prabhakar, o Homem-Aranha da Terra-50101, é um jovem estudante de Mumbai que recebe poderes aracnídeos após ser picado por uma aranha radioativa durante uma visita a uma antiga caverna. Assim como o Homem-Aranha tradicional, Pavitr ganha força, agilidade e a habilidade de escalar paredes.">
+                    <img src="./src/image/card-indiano.jpg" alt="Homem-Aranha Indiano">
+                </li>
+
+                <li class="personagem" id="porco-aranha" data-name="Porco-Aranha"
+                    data-description="Peter Porker, pertence à Terra-8311, que é conhecida como o Universo dos Animais Antropomórficos. O Porco-Aranha é uma paródia do Homem-Aranha tradicional e incorpora elementos de comédia e sátira. Ele possui habilidades semelhantes ao Homem-Aranha, como força, agilidade e a capacidade de escalar paredes.">
+                    <img src="./src/image/card-porco.jpg" alt="Porco-Aranha">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./src/image/card-homem-aranha-original.png"
+                alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Peter Parker</h2>
+                <p class="descricao-personagem" id="descricao-personagem">No universo principal da Marvel, a Terra-616,
+                    Peter Parker se tornou o Homem-Aranha após ser picado por uma aranha radioativa durante uma visita
+                    escolar a uma exposição científica. Essa mordida lhe conferiu poderes especiais, incluindo força
+                    sobre-humana, agilidade aprimorada e a habilidade de escalar paredes. Usando seus dons
+                    recém-adquiridos, Peter decidiu usar suas habilidades para combater o crime e proteger os inocentes
+                    como o Homem-Aranha.</p>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="src/js/index2.js"></script>
+</body>
+
+</html>
